@@ -160,44 +160,40 @@ section h1{
     width: 100%;
     background: #EFEEEC;
     border-left: 2px solid #384960;
-    animation: typing 3s steps(7) infinite;
+    animation: typing 2s steps(7) infinite;
 
 }
 
 .subtitle{
     font-weight: 400;
     margin-left: 2rem;
-    font-size:30px;
+    font-size:25px;
 }
 
 
 .btn{
     display: inline-block;
-    margin-top: 2rem;
-    margin-left: 4rem;
-    padding: 1.5rem;
+    margin-left: 7rem;
+    padding: 1rem 1rem;
     border-radius: 4rem;
     text-decoration: none;
     color: #EFEEEC;
     background: #384960;
-    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .btn span{
     text-decoration: none;
     border-radius: 2rem;
-    padding-top: 1rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    padding-bottom: 1rem;
-    align-items: center;
-    justify-content: center;
-    font-size: auto;
+    margin: 0.5rem ;
+    place-content: center;
+    place-self: center;
     
 }
 
 .findout{
-    font-size: 1.5rem;
+    font-size: 15px;
     color: #EFEEEC;
     text-decoration: none;
     font-weight: 300;
@@ -411,7 +407,7 @@ footer p{
 @keyframes typing {
     100%{
         left: 100%;
-        margin: 0 -50px 0 50px;
+        margin: 0 -40px 0 40px;
     }
     0%{
         margin: 0 0 0 0;
